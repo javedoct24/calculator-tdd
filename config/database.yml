@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  encoding: UTF-8
+  database: calculator_tdd
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+
+
+test:
+  adapter: postgresql
+  encoding: UTF-8
+  database: calculator_tdd_test
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
